@@ -1,0 +1,43 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ebfbff;
+  background-image: url(../images/bg-hero-mobile.svg);
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.button-try {
+  background-color: white;
+  color: #00252e;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  line-height: 24px;
+  font-size: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
