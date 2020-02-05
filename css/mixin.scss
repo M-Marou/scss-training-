@@ -1,0 +1,18 @@
+@mixin pink-button {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 40px;
+    font-size: 0.7rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);;
+    width: 100%;
+    cursor: pointer;
+}
+
+@mixin section-s {
+    
+}

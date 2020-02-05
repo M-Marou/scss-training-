@@ -3,6 +3,8 @@ html {
     box-sizing: border-box;
   }
 
+  @import './mixin';
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -14,27 +16,77 @@ body {
 header {
   background-color: hsl(193, 100%, 96%);
   background-image: url(../images/bg-hero-mobile.svg) ;
-  height: 100vh;
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // position: relative;
+  height: 765px;
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1rem;
+      margin: auto;
+      color: hsl(192, 100%, 9%);
+      margin-bottom: 30px;
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+    }
+    
+    .button-try{
+      background-color: white;
+      color: hsl(192, 100%, 9%);
+      padding: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      cursor: pointer;
+      border: none;
+      border-radius: 30px;
+      font-size: 0.7rem;
+      font-weight: bold;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);;
+      float: right;
+    }
+    
+    .logo {
+      img {
+        width: 30%;
+      }
+    }
+    .nev-bar {
+      padding-top: 20px;
+      margin-bottom: 80px;
+    }
+
+    .cnt {
+      width: 75%;
+      margin: auto;
+    }
+
+    .button-get{
+      @include pink-button();
+      margin-bottom: 60px;
+    }
+
+    .mock-ups {
+      width: 90%;
+      margin: auto;
+      img {
+        width: 100%;
+      }
+    }
 }
 
-.container {
+section {
   width: 90%;
   margin: auto;
+  img {
+    width: 90%;
+  }
 }
 
-.button-try{
-  background-color: white;
-  color: hsl(192, 100%, 9%);
-  padding: 10px;
-  cursor: pointer;
-  border: none;
-  border-radius: 10px;
-  line-height: 24px;
-  font-size: 1rem;
-}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
